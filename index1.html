@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Need For Speed 10 </title>
+    <link rel="stylesheet" href="my.css">
+</head>
+<body>
+    <div class="CarGame">
+        <div class="Score"></div>
+        <div class="fuel-percentage">Fuel: 100%</div>
+        <div class="StartScreen">
+            <p>Start Game by clicking Here<br><br>Arrow Keys to move<br><br>If you hit another car, you will lose<br><br>Need4Speed</p>
+            <br>
+            <button onclick="Reset()">Reset Highest Score</button>
+        </div>
+        <div class="GameArea"></div>
+    </div>      
+    <canvas id="gameCanvas"></canvas>
+    <audio id="gameSound" src="carmusic.mp3" loop></audio>
+<script src="java.js"></script>
+</body>
+</html>
+
